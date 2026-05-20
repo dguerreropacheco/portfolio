@@ -1,6 +1,6 @@
 export default function Social() {
   return (
-    <div className="absolute left-20 top-1/2 translate-y-[-97px]">
+    <div className="absolute left-4 md:left-20 top-1/2 translate-y-[-97px]">
       <div className="flex flex-col gap-4">
         <a
           href="https://linkedin.com/in/diana-guerrero-ing"

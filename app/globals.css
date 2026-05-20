@@ -19,6 +19,11 @@
   }
 }
 
+html {
+    scroll-behavior: smooth;
+
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -47,6 +52,10 @@ body {
   font-family: var(--font-bricolage);
   font-size: 16px;
   color: #b18918;
+}
+
+.principal:hover {
+  font-weight: bold;
 }
 
 a.text:hover , span.text:hover{

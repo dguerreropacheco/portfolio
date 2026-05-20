@@ -2,7 +2,7 @@ export default function View() {
   return (
     <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center">
       
-      <p className="text">COMBINAR LO COMPLEJO Y LO VISUAL</p>
+      <p className="text whitespace-nowrap">COMBINAR LO COMPLEJO Y LO VISUAL</p>
 
       <button className="group flex flex-col items-center border-none bg-transparent cursor-pointer p-0 mt-8 mb-4">
         <span className="text">
