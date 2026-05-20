@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.title {
+  font-family: var(--font-baskerville);
+  font-size: 34px;
+  margin-bottom: 24px;
+  margin-top: 20px;
+
+}
+
+.subtitle {
+  font-family: var(--font-bricolage);
+  font-size: 14px;
+}
+
+.text {
+  font-family: var(--font-bricolage);
+  font-size: 14px;
+}
+
+.principal {
+  font-family: var(--font-bricolage);
+  font-size: 16px;
+  color: #b18918;
+}
+
+a.text:hover , span.text:hover{
+  color: #b18918;
+}
