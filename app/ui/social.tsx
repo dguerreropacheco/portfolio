@@ -22,7 +22,7 @@ export default function Social() {
           GMAIL
         </a>
 
-        <a href="mailto:dguerreropacheco@gmail.com" className="text">
+        <a href="/CV DIANA GUERRERO PACHECO.pdf" download className="text">
           CV
         </a>
       </div>
