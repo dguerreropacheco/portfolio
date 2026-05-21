@@ -19,11 +19,6 @@ export default function Resume() {
         <View />
       </section>
 
-      <section id="1" className="h-screen">
-        <h1 className={`${bricolage.className} text-[16px] leading-[7.0]`}>
-          hol
-        </h1>
-      </section>
     </>
   );
 }
