@@ -11,3 +11,25 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model Proyecto {
+  id          String   @id @default(uuid())
+  titulo      String
+  descripcion String   @db.Text
+  imagenUrl   String
+  repoUrl     String?
+  demoUrl     String?
+  createdAt   DateTime @default(now())
+
+  skills      Skill[]  
+}
+
+model Skill {
+  id        String   @id @default(uuid())
+  nombre    String  
+  iconoUrl  String?  
+  categoria String   
+  destacado   Boolean  @default(false)
+
+  proyectos Proyecto[] 
+}
