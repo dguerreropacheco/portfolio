@@ -5,12 +5,10 @@ const prisma = new PrismaClient({ adapter });
 
 export default async function Skills() {
   const listaSkills = await prisma.skill.findMany({
-
     where: {
-      categoria: 'LENGUAJE',
-
-    }
-   });
+      categoria: "LENGUAJE",
+    },
+  });
 
   return (
     <div className="absolute right-4 md:right-21 top-1/2 translate-y-[-97px]">

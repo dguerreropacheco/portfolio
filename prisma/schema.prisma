@@ -1,8 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
   provider = "prisma-client-js"
   output   = "../app/generated/prisma"
@@ -15,19 +10,18 @@ datasource db {
 model Proyecto {
   id          String   @id @default(uuid())
   titulo      String
-  descripcion String   @db.Text
+  descripcion String
   imagenUrl   String
   repoUrl     String?
   demoUrl     String?
   createdAt   DateTime @default(now())
-
-  skills      Skill[]  
+  skills      Skill[]  @relation("ProyectoToSkill")
 }
 
 model Skill {
-  id        String   @id @default(uuid())
-  nombre    String  
-  iconoUrl  String?  
-  categoria String   
-  proyectos Proyecto[] 
+  id        String     @id @default(uuid())
+  nombre    String
+  iconoUrl  String?
+  categoria String
+  proyectos Proyecto[] @relation("ProyectoToSkill")
 }
