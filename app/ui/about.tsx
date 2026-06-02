@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="section1" className="w-full max-w-[690px] px-5 mt-20 md:mt-30">
+    <section id="1" className="w-full max-w-[690px] px-5 mt-20 md:mt-30">
       <h1 className="title2 mb-8">PERFIL</h1>
 
       <div className="subtitle2 space-y-6 leading-8">

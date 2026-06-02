@@ -13,19 +13,19 @@ export default function Navbar() {
       </a>
 
       <div className="flex items-center gap-3 md:gap-6">
-        <a href="/" className="text text-[12px] md:text-[14px] leading-none">
+        <a href="#1" className="text text-[12px] md:text-[14px] leading-none">
           PERFIL
         </a>
 
-        <a href="/" className="text text-[12px] md:text-[14px] leading-none">
+        <a href="#2" className="text text-[12px] md:text-[14px] leading-none">
           PROYECTOS
         </a>
 
-        <a href="/" className="text text-[12px] md:text-[14px] leading-none">
+        <a href="#3" className="text text-[12px] md:text-[14px] leading-none">
           STACK
         </a>
 
-        <a href="/" className="text text-[12px] md:text-[14px] leading-none">
+        <a href="#4" className="text text-[12px] md:text-[14px] leading-none">
           CONTACTO
         </a>
       </div>
