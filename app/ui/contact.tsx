@@ -7,7 +7,7 @@ export default function Contact() {
   };
   return (
     <section id="4" className="w-full max-w-[690px] px-5 mt-20 md:mt-30">
-      <h1 className="title2">CONTÁCTAME</h1>
+      <h1 className="title2">CONTACTO</h1>
 
       <div className="mt-10 space-y-6">
         <p className="subtitle2 leading-8">
@@ -15,7 +15,7 @@ export default function Contact() {
           sobre un proyecto, escríbeme.
         </p>
 
-        <div className="pt-4 flex justify-center">
+        <div className="pt-4 flex justify-center mt-8">
           <div className="contact-mail flex items-center gap-2">
             <a
               href="mailto:dguerreropacheco@gmail.com"
