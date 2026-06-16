@@ -6,10 +6,10 @@ export default function About() {
       <div className="subtitle2 space-y-6 leading-8">
         <p>
           Soy egresada de Ingeniería de Sistemas con enfoque en Desarrollo Full
-          Stack y automatización de procesos. Cuento con experiencia en la
+          Stack, análisis y automatización. Cuento con experiencia en la
           implementación de soluciones tecnológicas y gestión de plataformas,
           utilizando HTML, CSS, JavaScript, PHP y frameworks como Laravel,
-          Flask, Django y NextJS.
+          Flask, Django y NextJS con enfoque a brindar software de calidad.
         </p>
 
         <p>

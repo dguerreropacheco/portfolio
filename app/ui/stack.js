@@ -8,7 +8,7 @@ export default function Stack() {
       </div>
 
       <div className="w-full max-w-[1200px] mx-auto px-5 mt-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           <div className="card-skill">
             <h3 className="card-title">FRONTEND</h3>
             <SkillsComponent categoria="FRONTEND" />
@@ -32,6 +32,10 @@ export default function Stack() {
           <div className="card-skill">
             <h3 className="card-title">HERRAMIENTAS</h3>
             <SkillsComponent categoria="TOOLS" />
+          </div>
+          <div className="card-skill">
+            <h3 className="card-title">QA</h3>
+            <SkillsComponent categoria="QA" />
           </div>
         </div>
       </div>
