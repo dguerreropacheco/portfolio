@@ -18,15 +18,15 @@ export default function Contact() {
         <div className="pt-4 flex justify-center mt-8">
           <div className="contact-mail flex items-center gap-2">
             <a
-              href="mailto:dguerreropacheco@gmail.com"
+              href="mailto:dnagrpc@gmail.com"
               className="inline-flex items-center gap-2 ml-5"
             >
-              dguerreropacheco@gmail.com
+              dnagrpc@gmail.com
             </a>
 
             <button
               onClick={() =>
-                navigator.clipboard.writeText("dguerreropacheco@gmail.com")
+                navigator.clipboard.writeText("dnagrpc@gmail.com")
               }
               aria-label="Copiar correo"
               className="cursor-pointer hover:text-[#d4af37] transition-colors ml-5"

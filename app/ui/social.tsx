@@ -18,11 +18,11 @@ export default function Social() {
           GITHUB
         </a>
 
-        <a href="mailto:dguerreropacheco@gmail.com" className="text">
+        <a href="mailto:dnagrpc@gmail.com" className="text">
           GMAIL
         </a>
 
-        <a href="/CV DIANA GUERRERO PACHECO.pdf" download className="text">
+        <a href="/CV.pdf" download className="text">
           CV
         </a>
       </div>

@@ -9,7 +9,7 @@ export default function About() {
           Stack, análisis y automatización. Cuento con experiencia en la
           implementación de soluciones tecnológicas y gestión de plataformas,
           utilizando HTML, CSS, JavaScript, PHP y frameworks como Laravel,
-          Flask, Django y NextJS con enfoque a brindar software de calidad.
+          Flask, Django y NextJS con el objetivo de brindar software de calidad.
         </p>
 
         <p>

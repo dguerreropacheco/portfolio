@@ -12,7 +12,7 @@ export default function Resume() {
           <h1 className="title">DIANA GUERRERO</h1>
 
           <h1 className="subtitle max-w-[800px]">
-            DESARROLLADOR FULL STACK JR | PERÚ | DISPONIBLE
+            DESARROLLADORA FULL STACK JR | PERÚ | DISPONIBLE
           </h1>
         </div>
         <Social />
